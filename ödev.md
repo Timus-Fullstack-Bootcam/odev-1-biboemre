@@ -77,3 +77,16 @@ Arrow fonksiyonlarının normal fonksiyonlardan farkları:
 Örnek:
 
 const add = (a, b) => a + b;
+
+## Switch Bloğu ve Hatasız Değişken Tanımlama
+Switch bloğu içinde değişken tanımlamak için let kullanılabilir:
+let color = 'red';
+
+switch (color) {
+  case 'red':
+    let description = 'It is a red color.';
+    console.log(description);
+    break;
+  // diğer durumlar
+}
+
